@@ -18,7 +18,7 @@ const birdSchema = new mongoose.Schema({
     },
     shortCode: {
         type: String,
-        lowercase: true,
+        uppercase: true,
         trim: true
     },
     season: {
